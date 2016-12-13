@@ -1,0 +1,221 @@
+.qe-template {
+	display: none;
+}
+
+.qe-blink {
+	background-color: #FFFF9C;
+}
+
+.qe-btn {
+	padding: 4px 6px 2px 5px;
+}
+
+.qe-btn:hover {
+	background-color: #e0e0e0;
+}
+
+.qe-question-rows {
+	margin-top: 20px;
+}
+
+.qe-question-rows .qe-sortable-placeholder {
+	height: 40px;
+	opacity: 0.4;
+	border-style: dashed;
+	border-width: 2px;
+	margin: 2px;
+}
+
+.qe-question-rows .ui-sortable-helper {
+	opacity: 0.7;
+}
+
+.qe-question-row {
+	min-height: 50px;
+	border: 1px #e0e0e0 solid;
+	background-color: #fff;
+	padding: 12px;
+	margin-top: -1px;
+	border-radius: 5px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	transition: padding-top 0.2s ease-out;
+}
+
+.qe-question-row.qe-state-edit {
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+}
+
+.qe-question-row.qe-state-edit,.qe-question-row.qe-state-edit:hover {
+	background-color: #fafafa;
+}
+
+.qe-question-number {
+	display: block;
+	float: left;
+	border-radius: 50%;
+	width: 27px;
+	height: 27px;
+	line-height: 21px;
+	font-size: 85%;
+}
+
+.qe-question-text {
+	display: block;
+	margin: 2px 0 0 40px;
+}
+
+.qe-question-options {
+	position: relative;
+}
+
+.qe-question-options .qe-toggle {
+	opacity: 0;
+	transition: opacity 0.2s ease-out;
+	position: relative;
+}
+
+.qe-question-options .qe-caret {
+	font-size: 15px;
+	position: absolute;
+	right: 20px;
+	top: 5px;
+	opacity: 0.5;
+	transition: opacity 0.1s ease-in;
+}
+
+.qe-question-row-add {
+	position: relative;
+	padding: 0;
+	min-height: 50px;
+	margin-top: 10px;
+}
+
+.qe-question-add-button {
+	position: absolute;
+	height: 48px;
+	background: none;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	opacity: 0.5;
+	z-index: 1;
+}
+
+.qe-question-row-add:hover .qe-question-add-button {
+	opacity: 1;
+}
+
+.qe-question-row:hover {
+	background-color: #fbfbfb;
+}
+
+.qe-question-row:hover .qe-toggle {
+	opacity: 1;
+	transition: opacity 0.1s ease-in;
+}
+
+.qe-question-row:hover .qe-question-options .qe-caret {
+	opacity: 0;
+	transition: opacity 0.1s ease-out;
+}
+
+.qe-question-row.qe-state-edit {
+	padding-top: 20px;
+	padding-bottom: 0;
+	transition: padding-top 0.2s ease-in;
+}
+
+.qe-question-row.qe-state-edit .qe-question-options {
+	display: none;
+}
+
+.qe-question-row.qe-state-edit .qe-question-text {
+	color: red;
+	display: none;
+}
+
+/* question form */
+.qe-question-form {
+	position: relative;
+	z-index: 2;
+}
+
+.qe-question-form label {
+	font-weight: 400;
+}
+
+.qe-question-text-label {
+	margin-bottom: 15px;
+}
+
+.qe-question-text-group {
+	margin-bottom: 20px;
+}
+
+.qe-question-text-input {
+	width: 100%;
+}
+
+.qe-answer-group label {
+	margin-top: 6px;
+}
+
+.qe-answer-add-button {
+	cursor: pointer;
+}
+
+.qe-answer-properties {
+	margin-top: 20px;
+}
+
+.qe-answer-row {
+	margin-bottom: 10px;
+}
+
+.qe-answer-extra {
+	margin-bottom: 5px;
+}
+
+.qe-form-close-button {
+	margin: 0 0 10px 0;
+	opacity: 0.6;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+/* question form depending on container */
+.qe-question-row .qe-question-text-label {
+	display: none;
+}
+
+.qe-question-row .qe-question-form {
+	margin: 0 12px 0 35px;
+	top: -25px;
+	margin-bottom: 0;
+}
+
+.qe-question-row-add .qe-question-form {
+	margin: 20px 12px 25px 50px;
+	top: 0;
+}
+
+.qe-question-row-add .qe-question-text-label {
+	display: block;
+}
+
+.qe-question-row.qe-state-edit .qe-question-text-input {
+	padding: 6px;
+}
+
+.qe-question-row .qe-form-close-button {
+	display: none;
+}
+
+.qe-question-row-add .qe-form-close-button {
+	display: block;
+}
+
+.qe-question-row.qe-state-edit .qe-form-close-button {
+	display: block;
+}

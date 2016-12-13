@@ -1,0 +1,16 @@
+{
+  "name": "questions-editor",
+  "description": "Screening Questions Tool",
+  "version": "1.0.0",
+  "main": "src/questions-editor.js",
+  "ignore": [
+    ".gitignore",
+    "bower_components",
+    "vendor"
+  ],
+  "dependencies": {
+    "jquery": "1.11.3",
+    "bootswatch-dist": "3.3.6-paper",
+    "jquery-ui": "1.11.2"
+  }
+}

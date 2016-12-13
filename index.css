@@ -1,0 +1,11 @@
+body { background-color: #f0f0f0; padding-bottom: 20px; }
+.page-header { background-color: #303030; color: white; margin: 0 0 20px 0; padding-top: 20px; padding-bottom: 0; }
+.page-header h2, .page-header h4 { color: white; font-size: 40px; }
+.form-control { border-radius: 0; }
+.btn { border-radius: 2px; }
+.text-muted { color: #aaa; }
+
+/* some adjustments for bootstrap-paper theme */
+.qe-btn { box-shadow: none; }
+.qe-answer-add-button { border: none; box-shadow: none; }
+.form-control.qe-question-text-input { line-height: 1.7em; font-size: 13px; }
